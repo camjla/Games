@@ -1,0 +1,47 @@
+body {
+  background: #e0e0e0;
+}
+
+.dino {
+  position: absolute;
+  bottom: 0;
+  background-image: url(./img/dino.png);
+  width: 60px;
+  height: 60px;
+}
+
+.cactus {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 0;
+  background-image: url(./img/cactus.png);
+}
+
+.game-over {
+  text-align: center;
+  color: #666;
+  margin: 50px 0;
+  font-family: arial;
+}
+
+@keyframes slideright { /*Isso aqui serve para: criar uma animação no css, definir etapas de uma animação.
+  Slideright> deeslizar para a direita*/
+  from {
+    background-position: 70000%; /*posição do background  >bem para a esquerda*/
+  }
+  to {
+    background-position: 0%; /*ele irá para 0*/
+  }
+}
+
+.background {
+  position: absolute;
+  bottom: 0px;
+  background-image: url('./img/background.png');
+  background-repeat: repeat-x; /*repete inifinatemente o eixo x*/
+  animation: slideright 600s infinite linear; /*vai deslizar a cada 600segundo e de maneira infiinita e linear*/
+  -webkit-animation: slideright 600s infinite linear; /*"msm coisa"*/
+  width: 100%;
+  height: 200px;
+}

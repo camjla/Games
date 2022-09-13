@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+body {
+  text-align: center;
+}
+h1 {
+  font-family: 'Quicksand';
+  color: #c77ab8;
+  font-style: italic;
+  font-size: 2rem;
+}
+.quadrado {
+  text-align: center;
+  width: 4rem;
+  background: #efa9e1;
+  display: inline-block;
+  padding: 4rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  color: #efa9e1;
+}
+
+.jogador,
+.vencedor {
+  font-family: 'Quicksand';
+  color: #5a2f51;
+  font-style: bold;
+  font-size: 1.55rem;
+  margin-top: 1rem;
+}
+button {
+  width: 8rem;
+  height: 3rem;
+  font-family: 'Quicksand';
+  color: #5a2f51;
+  background: #efa9e1;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 10%;
+  border-color: #c77ab8;
+}
+button:hover
+{
+  background: #5a2f51;
+  color: #efa9e1;
+  transition: .2s;
+}
